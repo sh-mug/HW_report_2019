@@ -91,7 +91,7 @@ begin
             RankL <= RankIL;
             RankH <= RankIH;
             Rank <= Rank + 1;
-            if Rank = "11" then
+            if Rank = "10" then
                 Started <= '0';
                 Done <= '1';
             end if;
